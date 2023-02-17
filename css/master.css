@@ -41,14 +41,6 @@ body{
         width: 1170px;
     }        
 }
-@media (max-width:767px){
-    .special-heading{
-        font-size: 60px;
-    }    
-    .special-heading + p{
-        margin: -20px;
-    }
-}
 /* start component */
 .special-heading{
     color: #ebebeb;
@@ -57,6 +49,14 @@ body{
     text-align: center;
     letter-spacing: -3px;
     margin: 0;
+}
+@media (max-width: 767px){
+    .special-heading{
+        font-size: 60px;
+    }    
+    .special-heading + p{
+        margin: -20px;
+    }
 }
 .special-heading + p{
     margin: -30px 0 0;
